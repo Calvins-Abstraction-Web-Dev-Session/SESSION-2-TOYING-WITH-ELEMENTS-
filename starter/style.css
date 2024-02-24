@@ -1,0 +1,39 @@
+/* 1. CREATE CLASSES AND IDS */
+/* element -- identifierType -- name */
+/* ul -- id -- unordered_list */
+/* button -- class -- btn */
+/* li -- class -- children_list */
+/* a -- class -- link */
+/* p -- class -- paragraph */
+
+/* 2./////////////////REMOVE ELEMENTS' DEFAULT BY SETTING ALL MARGINGS AND PADDINGS TO ZERO///////////// */
+* {
+  /* uncomment below when styling buttons */
+  background-color: white;
+  border: none;
+}
+
+/* Set the default font-size of the web page to 10px */
+/* conversion: */
+
+/* 3.  //////////////////STYLE BUTTON ELEMENT////////////// */
+
+/* 4. //////////////////STYLE UNORDERED LIST////////////// */
+
+/* 5. //////////////////STYLE PARAGRAPH////////////// */
+
+/* 4.//////////////////STYLE HYPERLINKS////////////// */
+
+/* EXTRA */
+/* 5.////////////////// ADD HOVER LINK AND VISITED SYLES/////////////// */
+/* .link:link {
+}
+
+.link:visited {
+}
+
+.link:hover {
+}
+
+.link:active {
+} */
