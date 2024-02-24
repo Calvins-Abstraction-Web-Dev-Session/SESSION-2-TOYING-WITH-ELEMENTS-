@@ -1,0 +1,88 @@
+/* 1. CREATE CLASSES AND IDS */
+/* element -- identifierType -- name */
+/* ul -- id -- unordered_list */
+/* button -- class -- btn */
+/* li -- class -- children_list */
+/* a -- class -- link */
+/* p -- class -- paragraph */
+
+/* 2./////////////////REMOVE ELEMENTS' DEFAULT BY SETTING ALL MARGINGS AND PADDINGS TO ZERO///////////// */
+/* Select all elements */
+* {
+  /* clear margins a paddings defaults */
+  margin: 0;
+  padding: 0;
+  /* You use border box so that the size of each element equals "content + paddings" */
+  box-sizing: border-box;
+  /* uncomment below when styling buttons */
+  background-color: white;
+  border: none;
+}
+/* Set the default font-size of the web page to 10px */
+/* conversion: */
+body {
+  font-size: 62.5%;
+}
+/* Talk about rem */
+
+/* 3.  //////////////////STYLE BUTTON ELEMENT////////////// */
+.btn {
+  font-size: 2rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.462);
+  /* Implement Spacing */
+  margin-right: 2rem;
+}
+
+/* Select button's parent element --section */
+section {
+  /* Center button with text-align */
+  text-align: center;
+  /* Add whitespace with margin */
+  margin-bottom: 50px;
+}
+
+/* Show them how to fix last child having margin error */
+section .btn:nth-child(3) {
+  margin-right: 0;
+}
+
+/* 4.//////////////////STYLE UNORDERED LIST////////////// */
+#unordered_list {
+  margin-top: 2rem;
+  margin-bottom: 50px;
+  list-style: none;
+  /* flex box */
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+/* Style children list to look like buttons */
+.children_list {
+  font-size: 2rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.462);
+}
+
+/* 4.//////////////////STYLE PARAGRAPH////////////// */
+.paragraph {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 2rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.462);
+}
+
+section .paragraph:last-child() {
+  margin-right: 0;
+}
+
+/* 4.//////////////////STYLE HYPERLINKS////////////// */
+.link {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.462);
+  margin-right: 2rem;
+  display: inline-block;
+}
