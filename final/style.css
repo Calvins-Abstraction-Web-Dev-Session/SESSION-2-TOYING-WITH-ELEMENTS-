@@ -7,23 +7,20 @@
 /* p -- class -- paragraph */
 
 /* 2./////////////////REMOVE ELEMENTS' DEFAULT BY SETTING ALL MARGINGS AND PADDINGS TO ZERO///////////// */
-/* Select all elements */
 * {
-  /* clear margins a paddings defaults */
+
   margin: 0;
   padding: 0;
-  /* You use border box so that the size of each element equals "content + paddings" */
   box-sizing: border-box;
-  /* uncomment below when styling buttons */
+
   background-color: white;
   border: none;
 }
-/* Set the default font-size of the web page to 10px */
-/* conversion: */
+
 body {
-  font-size: 62.5%;
+  font-size: 62.5%; /* Talk about rem */
 }
-/* Talk about rem */
+
 
 /* 3.  //////////////////STYLE BUTTON ELEMENT////////////// */
 .btn {
